@@ -14,6 +14,8 @@
 		77D88064202B4B0C00E5E5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D88063202B4B0C00E5E5F3 /* Assets.xcassets */; };
 		77D88067202B4B0C00E5E5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D88065202B4B0C00E5E5F3 /* LaunchScreen.storyboard */; };
 		77D8806F202B4BE800E5E5F3 /* GeneralnfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D8806E202B4BE800E5E5F3 /* GeneralnfoViewController.swift */; };
+		77D88072202B640D00E5E5F3 /* GeneralInfoTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D88071202B640D00E5E5F3 /* GeneralInfoTitleView.swift */; };
+		77D88074202B643000E5E5F3 /* GeneralInfoBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D88073202B643000E5E5F3 /* GeneralInfoBodyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		77D88066202B4B0C00E5E5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D88068202B4B0C00E5E5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77D8806E202B4BE800E5E5F3 /* GeneralnfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralnfoViewController.swift; sourceTree = "<group>"; };
+		77D88071202B640D00E5E5F3 /* GeneralInfoTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoTitleView.swift; sourceTree = "<group>"; };
+		77D88073202B643000E5E5F3 /* GeneralInfoBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoBodyView.swift; sourceTree = "<group>"; };
 		A97955FB6E6D5AF8AA707791 /* Pods-Sample-GeneralInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GeneralInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GeneralInfo/Pods-Sample-GeneralInfo.debug.xcconfig"; sourceTree = "<group>"; };
 		D379B98630E249A1FE2E5E2C /* Pods_Sample_GeneralInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_GeneralInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA273F7758C0010980209BAC /* Pods-Sample-GeneralInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GeneralInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GeneralInfo/Pods-Sample-GeneralInfo.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,15 +84,33 @@
 		77D8805B202B4B0C00E5E5F3 /* Sample-GeneralInfo */ = {
 			isa = PBXGroup;
 			children = (
+				77D88070202B63D900E5E5F3 /* GeneralInfo */,
 				77D8805C202B4B0C00E5E5F3 /* AppDelegate.swift */,
 				77D8805E202B4B0C00E5E5F3 /* ViewController.swift */,
 				77D88060202B4B0C00E5E5F3 /* Main.storyboard */,
 				77D88063202B4B0C00E5E5F3 /* Assets.xcassets */,
 				77D88065202B4B0C00E5E5F3 /* LaunchScreen.storyboard */,
 				77D88068202B4B0C00E5E5F3 /* Info.plist */,
-				77D8806E202B4BE800E5E5F3 /* GeneralnfoViewController.swift */,
 			);
 			path = "Sample-GeneralInfo";
+			sourceTree = "<group>";
+		};
+		77D88070202B63D900E5E5F3 /* GeneralInfo */ = {
+			isa = PBXGroup;
+			children = (
+				77D8806E202B4BE800E5E5F3 /* GeneralnfoViewController.swift */,
+				77D88075202B64AA00E5E5F3 /* Builders */,
+			);
+			path = GeneralInfo;
+			sourceTree = "<group>";
+		};
+		77D88075202B64AA00E5E5F3 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				77D88071202B640D00E5E5F3 /* GeneralInfoTitleView.swift */,
+				77D88073202B643000E5E5F3 /* GeneralInfoBodyView.swift */,
+			);
+			path = Builders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +242,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D88072202B640D00E5E5F3 /* GeneralInfoTitleView.swift in Sources */,
 				77D8805F202B4B0C00E5E5F3 /* ViewController.swift in Sources */,
 				77D8806F202B4BE800E5E5F3 /* GeneralnfoViewController.swift in Sources */,
 				77D8805D202B4B0C00E5E5F3 /* AppDelegate.swift in Sources */,
+				77D88074202B643000E5E5F3 /* GeneralInfoBodyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
