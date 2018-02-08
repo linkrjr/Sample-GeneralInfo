@@ -1,3 +1,6 @@
 Build/
 I/
 Pods/
+DerivedData/
+**/xcuserdata/
+**/xcuserdata/

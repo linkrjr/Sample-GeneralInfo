@@ -30,6 +30,7 @@ class GeneralInfoBodyView: GeneralInfoViewBuilder, Equatable {
         view.backgroundColor = self.backgroundColor
         
         let textLabel = UILabel()
+        textLabel.numberOfLines = 0
         textLabel.text = self.text
         textLabel.textAlignment = .center
         
@@ -40,12 +41,9 @@ class GeneralInfoBodyView: GeneralInfoViewBuilder, Equatable {
         
         view.addSubview(textLabel)
         
-        view.snp.makeConstraints { make in
-            make.height.equalTo(350)
-        }
-        
         textLabel.snp.makeConstraints { make in
-            make.left.right.centerY.equalToSuperview()
+            make.top.bottom.equalToSuperview().inset(10)
+            make.left.right.equalToSuperview()
         }
         
         return view

@@ -16,6 +16,7 @@
 		77D8806F202B4BE800E5E5F3 /* GeneralnfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D8806E202B4BE800E5E5F3 /* GeneralnfoViewController.swift */; };
 		77D88072202B640D00E5E5F3 /* GeneralInfoTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D88071202B640D00E5E5F3 /* GeneralInfoTitleView.swift */; };
 		77D88074202B643000E5E5F3 /* GeneralInfoBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D88073202B643000E5E5F3 /* GeneralInfoBodyView.swift */; };
+		8B0F87AD202BD30A0035B2DE /* GreyBoxGeneralInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F87AC202BD30A0035B2DE /* GreyBoxGeneralInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		77D8806E202B4BE800E5E5F3 /* GeneralnfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralnfoViewController.swift; sourceTree = "<group>"; };
 		77D88071202B640D00E5E5F3 /* GeneralInfoTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoTitleView.swift; sourceTree = "<group>"; };
 		77D88073202B643000E5E5F3 /* GeneralInfoBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoBodyView.swift; sourceTree = "<group>"; };
+		8B0F87AC202BD30A0035B2DE /* GreyBoxGeneralInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyBoxGeneralInfoView.swift; sourceTree = "<group>"; };
 		A97955FB6E6D5AF8AA707791 /* Pods-Sample-GeneralInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GeneralInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GeneralInfo/Pods-Sample-GeneralInfo.debug.xcconfig"; sourceTree = "<group>"; };
 		D379B98630E249A1FE2E5E2C /* Pods_Sample_GeneralInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_GeneralInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA273F7758C0010980209BAC /* Pods-Sample-GeneralInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample-GeneralInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample-GeneralInfo/Pods-Sample-GeneralInfo.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				77D88071202B640D00E5E5F3 /* GeneralInfoTitleView.swift */,
 				77D88073202B643000E5E5F3 /* GeneralInfoBodyView.swift */,
+				8B0F87AC202BD30A0035B2DE /* GreyBoxGeneralInfoView.swift */,
 			);
 			path = Builders;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0F87AD202BD30A0035B2DE /* GreyBoxGeneralInfoView.swift in Sources */,
 				77D88072202B640D00E5E5F3 /* GeneralInfoTitleView.swift in Sources */,
 				77D8805F202B4B0C00E5E5F3 /* ViewController.swift in Sources */,
 				77D8806F202B4BE800E5E5F3 /* GeneralnfoViewController.swift in Sources */,

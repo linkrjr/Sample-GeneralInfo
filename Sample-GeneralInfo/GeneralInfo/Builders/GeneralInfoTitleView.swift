@@ -26,11 +26,8 @@ class GeneralInfoTitleView: GeneralInfoViewBuilder {
         titleLabel.textAlignment = .center
         view.addSubview(titleLabel)
         
-        view.snp.makeConstraints { make in
-            make.height.equalTo(250)
-        }
-        
         titleLabel.snp.makeConstraints { make in
+            make.top.bottom.equalToSuperview().inset(50)
             make.left.right.centerY.equalToSuperview()
         }
         
